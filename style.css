@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "consta";
+	src: url(font/constan.ttf);
+}
+
+*
+{
+	font-family: "consta";
+	margin:0;
+	padding: 0;
+	color:#3f0d0d;
+}
+
+body
+{
+	background: url(img/bg1.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.wrapper.main{
+	width:80%;
+	max-width: 1183px;
+	min-width: 800px;
+	height: 500px;
+	margin: 32px auto;
+	background:url(img/bars1.png) repeat-y;
+
+}
+
+.logo a
+{
+	background: url(img/logo1.2.png) no-repeat;
+	width:178px;
+	height:176px;
+	display: block;
+	text-indent: -999px;
+}
