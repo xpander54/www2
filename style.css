@@ -11,7 +11,7 @@
 	font-family: "consta";
 	margin:0;
 	padding: 0;
-	color:#3f0d0d;
+	color: #650000;
 }
 
 body
@@ -20,16 +20,127 @@ body
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
+	font-size: 16px;
 }
 
 .wrapper.main{
 	width:80%;
 	max-width: 1183px;
 	min-width: 800px;
-	height: 500px;
-	margin: 32px auto;
+	height: 916px;
+	margin: 32px auto 0 auto ;
 	background:url(img/bars1.png) repeat-y;
+}
+header.main
+{
+	position: relative;
+	height: 210px;
+}
 
+header.main .slogan{
+	right: 42px;
+	bottom: 10px;
+	position: absolute;
+	width: 300px;
+	font-size: 26pt;
+	font-weight: bold;
+	text-align: right;
+	line-height: .7em;
+
+}
+
+header.main .slogan a{
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	font-style: none;
+
+}
+
+header.main  a:link {text-decoration: none}
+header.main  a:visited {text-decoration: none}
+header.main  a:active {text-decoration: none}
+header.main  a:hover {text-decoration: underline;}
+
+section.main
+{
+	height:605px;
+}
+
+nav.main
+{
+	height: 585px;
+	width:20%;
+	float:left;
+	padding: 10px 0;
+
+}
+
+nav.main ul{
+	list-style: none;
+	margin:104px 0px 0px 40px;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1.5em;
+
+}
+
+nav.main li{
+	cursor: pointer;
+}
+
+nav.main a{
+	text-decoration: none;
+}
+div.contenido
+{
+	height:585px;
+	width:80%;
+	padding: 10px 0;
+	float: right;
+	background: cyan;
+	background: url(img/indx1.png) no-repeat center 10px;
+}
+div.contenido2
+{
+	height:585px;
+	width:80%;
+	padding: 10px 0;
+	float: right;
+	background: cyan;
+	background: url(img/rooms.jpg) no-repeat center 10px;
+}
+
+div.contenido3
+{
+	height:585px;
+	width:80%;
+	padding: 10px 0;
+	float: right;
+	background: cyan;
+	background: url(img/soon.png) no-repeat center 10px;
+}
+
+.raton
+{
+	background: url(img/raton1.png);
+	width:92px;
+	height:89px;
+	bottom: 0px;
+	margin: 0px 0px 11px 45px;
+}
+.indxImg1
+{
+
+}
+
+
+header h1
+{
+	height: 176px;
+	width:178px;
+	position: absolute;
 }
 
 .logo a
@@ -39,4 +150,69 @@ body
 	height:176px;
 	display: block;
 	text-indent: -999px;
+} 
+
+footer.main
+{
+	height: 101px;
+	position: relative;
+}
+
+footer .social-media{
+	width: 350px;
+	margin: 16px 45%;
+}
+
+footer .social-media li{
+	display: block;
+	float: left;
+}
+
+footer .social-media a
+{
+	display: block;
+	width: 109px;
+	height: 38px;
+	text-indent: -9999px;
+}
+
+.facebook
+{
+	background: url(img/sprite_social_media.png) 0 0 no-repeat;
+}
+
+.boutique
+{
+	background: url(img/sprite_social_media.png) -109px 0 no-repeat;
+}
+
+.twitter{
+	background: url(img/sprite_social_media.png) -218px 0 no-repeat;
+}
+
+footer .about-us
+{
+	position: absolute;
+	left: 49px;
+	bottom: 19px;
+
+}
+footer .about-us a
+{
+	display: block;
+	text-indent: -9999px;
+	width: 92px;
+	height: 90px;
+	background: url(img/raton1.png) no-repeat;
+
+}
+/* Arreglos Generales */
+
+.centrado-txt
+{
+	text-align: center;
+	margin: 0 44%;
+	width: 357px;
+	font-size: 18px;
+	font-weight: 400;
 }
