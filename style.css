@@ -31,7 +31,7 @@ body
 	width:80%;
 	max-width: 1183px;
 	min-width: 800px;
-	height: 916px;
+	/*height: 916px;*/
 	margin: 32px auto 0 auto ;
 	background:url(img/bars1.png) repeat-y;
 }
@@ -66,14 +66,18 @@ header.main  a:visited {text-decoration: none}
 header.main  a:active {text-decoration: none}
 header.main  a:hover {text-decoration: underline;}
 
-section.main
+section.main:after
 {
-	height:605px;
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
 }
 
 nav.main
 {
-	height: 585px;
+	/*height: 585px;*/
 	width:20%;
 	float:left;
 	padding: 10px 0;
