@@ -69,19 +69,43 @@ header.main  a:hover {text-decoration: underline; font-style: italic; font-weigh
 
 header.main .contactMenu
 {
-	width: 0px;
-	height: 0px;
-	position: absolute;
+	/*width: 280px;
+	height: 350px;*/
+	position: relative;
+	float: right;
 	right: 0px;
 	margin: 0px 0px 0px 0px;
-	background: #C6996A;
-	opacity: .8;
-	border: dotted 2px #650000;
-	visibility: hidden;
+	
 	overflow: hidden;
 	padding: 5px;
 
 }
+
+header.main #contactLink
+{
+	float: right;
+
+}
+
+.mail-list{
+	position: relative;
+	display: none;
+	
+	margin: 20px 0px 0px 0px;
+	background: #C6996A;
+	opacity: .8;
+	border: dotted 2px #650000;
+	width: 280px;
+	height: 350px;
+}
+
+.contactMenu:hover .mail-list
+{
+	display: block;
+	animation-duration: 3s;
+}
+
+
 header.main .mail
 {
 	line-height: 1em;
